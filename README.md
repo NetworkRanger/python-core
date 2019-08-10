@@ -7,3 +7,4 @@ Python核心编程
 * 第4章 多线程编程
 * 第5章 GUI编程
 * 第6章 数据库编程
+* 第7章 Microsoft Office编程
