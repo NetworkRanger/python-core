@@ -19,3 +19,4 @@ Python核心编程
 * 第10章 Web编程： CGI和WSGI
 * 第11章 Web框架: Django
 * 第12章 云计算: Google App Engine
+* 第13章 Web服务
