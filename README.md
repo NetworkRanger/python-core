@@ -20,3 +20,7 @@ Python核心编程
 * 第11章 Web框架: Django
 * 第12章 云计算: Google App Engine
 * 第13章 Web服务
+
+# 第三部分 补充/实验章节
+
+* 第14章 文本处理
