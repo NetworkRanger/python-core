@@ -16,4 +16,5 @@ Python核心编程
 # 第二部分 Web开发
 
 * 第9章 Web客户端和服务器
-* 第10章 Web框架: Django
+* 第10章 Web编程： CGI和WSGI
+* 第11章 Web框架: Django

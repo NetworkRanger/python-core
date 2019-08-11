@@ -1,60 +1,30 @@
-# Web框架：Django
+# Web编程：CGI和WSGI 
 
-## 项目和应用
+## 相关模块
 
-### 在Django中创建项目
+#### Web编程相关模块
 
-#### Django 项目文件
-
-文件名|描述/用途
------|--------  
- __init__.py|告诉 Python 这是一个软件包
-urls.py|全局 URL 配置(“URLconf”)
-settings.py|项目相关的配置
-manage.py|应用的命令行接口
-
-### "Hello World"应用（一个博客）
-
-#### Django 应用文件 
-
-文件名|描述/目的
------|------
-__init__.py|告诉 Python 这是一个包
-urls.py|应用的 URL 配置文件(“URLconf”)，这个文件并不像项目的 URLconf 那样自动创建(所 以上面的截图中没有)
-models.py|数据模型
-views.py|视图函数(即 MVC 中的控制器) 
-tests.py|单元测试
-
-## 中级Django应用： TweetApprover
-
-### URL结构
-
-#### 项目处理的 URL 以及对应的行为
-
-URL|行为
-----|----
-/post|提交新推文
-/post/edit/X|编辑 ID 为 X 的推文
-/post/thankyou|在用户提交推文后显示致谢页面
-/|与/post 相同 
-/approve|列出所有待审核和已发布的推文
-/approve/review/X|用于审核推文 X
-/admin|转到项目的 admin 页面
-/login|用户登录
-/logout|用户注销
-
-## 资源
-
-#### 其他 Web 框架和资源
-
-包| 资源
----|------
-Django|http://djangoproject.com
-Pyramid & Pylons|http://pylonsproject.org
-TurboGears|http://turbogears.org
-Pinax|http://pinaxproject.com
-Python Web Frameworks|http://wiki.python.org/moin/WebFrameworks
-Django-nonrel|http://www.allbuttonspressed.com
-virtualenv|http://pypi.python.org/pypi/virtualenv
-Twitter Developers|http://dev.twitter.com
-OAuth|http://oauth.net
+模块/包|描述
+------|----
+Web应用程序|
+cgi|从 CGI 获取数据
+cgitb|处理 CGI 回溯消息
+htmllib|用于解析简单 HTML 文件的老的 HTML 解析器;HTMLParser 类扩展自 sgmllib.SGMLParser 
+HTMLParser|新的不基于 SGML 的 HTML、XHTML 解析器
+htmlentitydefs|HTML 普通实体定义
+Cookie|用于 HTTP 状态管理的服务器端 cookie
+cookielib|HTTP 客户端的 cookie 处理类
+webbrowser|控制器:向浏览器加载 Web 文档
+sgmllib|解析简单的 SGML 文件
+robotparser|解析 robots.txt 文件用于 URL 的“可获得性”分析
+httplib|用来创建 HTTP 客户端
+Web服务器|
+BaseHttpServer|用来开发 Web 服务器的抽象类
+SimpleHttpServer|处理最简单的 HTTP 请求(HEAD 和 GET)
+CGIHTTPServer|既能像 SimpleHTTPServer 一样处理 Web 文件，又能处理 CGI(HTTP POST)请求
+http.server|Python 3 中 BaseHTTPServer 、 SimpleHTTPServer 和 CGIHTTPServer 模块组合包的新名称 
+wsgiref|WSGI 参考模块
+第三方开发包（非标准库）|
+BeautifulSoup|基于正则表达式的 HTML、XML 解析器，http://crummy.com/software/BeautifulSoup 
+html5lib|HTML 5 解析器，http://code.google.com/p/html5lib
+lxml|完整的 HTML 和 XML 解析器(支持以上两种解析器)http://lxml.de
