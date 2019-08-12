@@ -27,3 +27,4 @@ Python核心编程
 * [第15章 其他内容](./chapter15)
 
 * [附录B](./appendixB.md)
+* [附录C](./appendixC.md)
