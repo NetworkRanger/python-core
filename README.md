@@ -28,3 +28,4 @@ Python核心编程
 
 * [附录B](./appendixB.md)
 * [附录C](./appendixC.md)
+* [附录D](./appendixD.md)
